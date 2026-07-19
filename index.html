@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aya — Cybersecurity Portfolio</title>
+<meta name="description" content="Aya — cybersecurity analyst in training. Network defense, threat management, and CTF practice, based in Algiers.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="glow glow--a"></div>
+<div class="glow glow--b"></div>
+<canvas id="grid-canvas"></canvas>
+<div class="noise-overlay"></div>
+
+<nav class="nav">
+  <a href="#top" class="brand">
+    <img src="assets/logo.svg" alt="">
+    AYA<span class="accent">.SEC</span>
+  </a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certs</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="nav-cta">Get in touch</a>
+</nav>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-kicker"><span class="dot"></span> STATUS: OPEN TO WORK</div>
+    <h1>Securing systems<br>from the <span class="grad">outside in</span>.</h1>
+    <div class="terminal" id="terminal"></div>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn--primary">View projects</a>
+      <a href="#contact" class="btn btn--ghost">Contact me</a>
+    </div>
+    <div class="hero-scroll"><span>scroll</span><span class="line"></span></div>
+  </section>
+
+  <section id="about">
+    <div class="eyebrow">01 — About</div>
+    <h2 class="section-title reveal">Cybersecurity, from the ground up.</h2>
+    <div class="about-grid">
+      <div class="about-copy reveal reveal-delay-1">
+        <p>I'm <strong>Aya</strong>, a cybersecurity-focused IT student based in Algiers, currently completing a <strong>BTS in IT Systems Maintenance</strong>. My work sits at the intersection of network defense, threat management, and endpoint security.</p>
+        <p>I built <strong>AgisCore XDR</strong>, an extended detection and response project that won <strong>Best Project</strong> in my specialization, and I keep my offensive-security instincts sharp through CTF practice on picoCTF.</p>
+        <p>Outside coursework, I lead <strong>Forsa Club</strong> at INSFP Hussein Dey and have volunteered across several student tech communities in Algiers, including Shellmates and the School of AI.</p>
+      </div>
+      <div class="stat-list reveal reveal-delay-2">
+        <div class="stat">
+          <div class="num"><span class="accent">128</span></div>
+          <div class="label">picoCTF challenges solved</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="accent">35</span></div>
+          <div class="label">medium-difficulty CTFs</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="accent">8</span></div>
+          <div class="label">forage job simulations</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="accent">1</span></div>
+          <div class="label">best project award</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="eyebrow">02 — Certifications</div>
+    <h2 class="section-title reveal">Credentials that back the work.</h2>
+    <p class="section-lede reveal reveal-delay-1">A working foundation across network defense, threat management, endpoint security, and OT security.</p>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-tag">Career Path</div>
+        <div class="cert-name">Junior Cybersecurity Analyst</div>
+        <div class="cert-meta">Cisco — Jul 2024</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-1">
+        <div class="cert-tag">OT Security</div>
+        <div class="cert-name">OT Security Expert (OOSE)</div>
+        <div class="cert-meta">OPSWAT — Nov 2025</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-2">
+        <div class="cert-tag">Network</div>
+        <div class="cert-name">Cyber Threat Management</div>
+        <div class="cert-meta">Cisco</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-3">
+        <div class="cert-tag">Network</div>
+        <div class="cert-name">Network Defense</div>
+        <div class="cert-meta">Cisco</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-tag">Endpoint</div>
+        <div class="cert-name">Endpoint Security</div>
+        <div class="cert-meta">Cisco</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-1">
+        <div class="cert-tag">Foundations</div>
+        <div class="cert-name">Networking Basics &amp; Intro to Cybersecurity</div>
+        <div class="cert-meta">Cisco</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow">03 — Projects</div>
+    <h2 class="section-title reveal">Selected work.</h2>
+
+    <div class="project reveal">
+      <div>
+        <div class="project-index">001 / Award-winning</div>
+        <h3>AgisCore XDR</h3>
+        <p>An extended detection and response system built for my IT Systems Maintenance specialization — designed to correlate endpoint and network signals into a single defensive view. Recognized with <strong>Best Project</strong> in my cohort.</p>
+        <div class="tag-row">
+          <span class="tag">XDR</span>
+          <span class="tag">Threat Detection</span>
+          <span class="tag">Endpoint Security</span>
+        </div>
+      </div>
+      <div class="project-visual"><canvas data-visual="radar"></canvas></div>
+    </div>
+
+    <div class="project reveal">
+      <div>
+        <div class="project-index">002 / Practice</div>
+        <h3>picoCTF Challenge Log</h3>
+        <p>Ongoing capture-the-flag practice across web exploitation, cryptography, forensics, and reverse engineering — 128 challenges in, with a growing share at medium difficulty.</p>
+        <div class="tag-row">
+          <span class="tag">CTF</span>
+          <span class="tag">Cryptography</span>
+          <span class="tag">Forensics</span>
+        </div>
+      </div>
+      <div class="project-visual"><canvas data-visual="scan"></canvas></div>
+    </div>
+
+    <div class="project reveal">
+      <div>
+        <div class="project-index">003 / Simulated experience</div>
+        <h3>Forage Job Simulations</h3>
+        <p>Completed job simulations with Deloitte, Mastercard, Telstra, Commonwealth Bank, ANZ, AIG, Tata Group, and Datacom, plus the INSIDE LVMH program — practicing real-world analyst workflows across industries.</p>
+        <div class="tag-row">
+          <span class="tag">Deloitte</span>
+          <span class="tag">Mastercard</span>
+          <span class="tag">Telstra</span>
+          <span class="tag">+5 more</span>
+        </div>
+      </div>
+      <div class="project-visual"><canvas data-visual="grid"></canvas></div>
+    </div>
+  </section>
+
+  <section id="certs">
+    <div class="eyebrow">04 — Path</div>
+    <h2 class="section-title reveal">Education &amp; timeline.</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Oct 2024 — Apr 2027</div>
+        <div class="timeline-title">BTS, IT Systems Maintenance</div>
+        <div class="timeline-desc">INSFP Mohammed Tayeb Boucenna</div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-1">
+        <div class="timeline-date">Nov 2025</div>
+        <div class="timeline-title">OPSWAT OT Security Expert (OOSE)</div>
+        <div class="timeline-desc">Certified in operational technology security</div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-2">
+        <div class="timeline-date">Jul 2024</div>
+        <div class="timeline-title">Cisco Junior Cybersecurity Analyst Career Path</div>
+        <div class="timeline-desc">Completed alongside several supporting Cisco certifications</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="leadership">
+    <div class="eyebrow">05 — Leadership</div>
+    <h2 class="section-title reveal">Community &amp; clubs.</h2>
+    <div class="leadership-grid">
+      <div class="leadership-card reveal">
+        <div class="leadership-role">President</div>
+        <div class="leadership-name">Forsa Club, INSFP Hussein Dey</div>
+      </div>
+      <div class="leadership-card reveal reveal-delay-1">
+        <div class="leadership-role">Member</div>
+        <div class="leadership-name">Micro Club</div>
+      </div>
+      <div class="leadership-card reveal reveal-delay-2">
+        <div class="leadership-role">Member</div>
+        <div class="leadership-name">English Speakers Club, USTHB</div>
+      </div>
+      <div class="leadership-card reveal reveal-delay-3">
+        <div class="leadership-role">Member</div>
+        <div class="leadership-name">Shellmates Club</div>
+      </div>
+      <div class="leadership-card reveal">
+        <div class="leadership-role">Member</div>
+        <div class="leadership-name">School of AI Algiers</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="eyebrow" style="justify-content:center;">06 — Contact</div>
+    <h2 class="section-title reveal">Let's work together.</h2>
+    <p class="section-lede reveal reveal-delay-1" style="margin:0 auto;">Open to cybersecurity internships, freelance analyst work, and collaborations.</p>
+    <div class="contact-links reveal reveal-delay-2">
+      <a href="mailto:ayakhiouat@gmail.com" class="btn btn--primary">Email me</a>
+      <a href="https://github.com/cbdevsec" class="btn btn--ghost">GitHub</a>
+      <a href="https://linkedin.com/in/ayakh" class="btn btn--ghost">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>© 2026 Aya Khiouat (CBDEVSEC). Built &amp; deployed on GitHub Pages.</span>
+  <span>Algiers, Algeria</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
