@@ -1,4 +1,10 @@
-# TRITON/TRISIS: When Malware Went After the Safety Systems
+---
+layout: post
+title: "TRITON/TRISIS: When Malware Went After the Safety Systems"
+date: 2026-07-20
+tags: [ics, ot-security, malware-analysis, mitre-attack]
+excerpt: "A breakdown of the 2017 TRITON attack on a petrochemical plant's Safety Instrumented System — and why going after the safety layer itself is a different kind of threat model."
+---
 
 ## Why I picked this one
 
