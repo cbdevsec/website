@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="post-header reveal">
+    <a href="{{ '/blog/' | relative_url }}" class="post-back">&larr; All posts</a>
+    <div class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}{% if page.tags %} · {{ page.tags | join: " · " }}{% endif %}</div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </div>
+  <div class="post-body reveal reveal-delay-1">
+    {{ content }}
+  </div>
+</article>
