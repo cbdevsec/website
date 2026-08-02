@@ -5,7 +5,7 @@ permalink: /blog/:title/
 
 # If you deploy this to a PROJECT page (a repo NOT named yourusername.github.io),
 # uncomment the next line and set it to your repo name, e.g. "/aya-portfolio":
-baseurl: "/website"
+baseurl: "/Security"
 
 exclude:
   - README.md
