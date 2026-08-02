@@ -92,7 +92,7 @@ main, header, footer{ position:relative; z-index:2; }
 }
 
 .brand{ display:flex; align-items:center; gap:10px; font-family:var(--font-display); font-weight:600; font-size:1.05rem; letter-spacing:0.02em; }
-.brand img{ height:64px; width:auto; }
+.brand img{ height:50px; width:auto; }
 .brand .accent{ color:var(--cyan); }
 
 .nav-links{ display:flex; gap:clamp(16px,3vw,36px); font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.03em; text-transform:uppercase; color:var(--fog); }
