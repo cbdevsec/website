@@ -1,0 +1,24 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aya security logo">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B4DFF"/>
+      <stop offset="100%" stop-color="#4DE8E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shield / hex frame -->
+  <path d="M60 6 L106 26 V64 C106 90 86 106 60 114 C34 106 14 90 14 64 V26 Z"
+        fill="none" stroke="url(#logoGrad)" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- monogram A built from a circuit trace -->
+  <path d="M39 84 L58 34 C59 31.5 61 31.5 62 34 L81 84"
+        fill="none" stroke="#F3EFFA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- broken crossbar with a signal gap, like an open auth gate -->
+  <path d="M47 66 L55 66" stroke="#F3EFFA" stroke-width="6" stroke-linecap="round"/>
+  <path d="M65 66 L73 66" stroke="#F3EFFA" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- signal / ping node at the apex -->
+  <circle cx="60" cy="34" r="4.5" fill="#4DE8E0"/>
+  <circle cx="60" cy="34" r="9" fill="none" stroke="#4DE8E0" stroke-width="1.5" opacity="0.6"/>
+</svg>
