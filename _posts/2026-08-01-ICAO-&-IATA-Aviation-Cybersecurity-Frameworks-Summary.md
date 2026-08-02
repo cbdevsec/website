@@ -30,7 +30,7 @@ This fundamentally higher-stakes threat model makes it important to understand a
 
 Which are centered on the principle that cybersecurity and aviation are both borderless, requiring cooperation and harmonization at national, regional, and international levels. Backed by Legal weight like the Beijing Convention and protocol aim to deter cyberattacks, covering the protection of critical IT systems and ICAO assembly resolutions calling for global adoption of the strategy.
 
-##ICAO: The Cybersecurity Action Plan (CyAP)
+## ICAO: The Cybersecurity Action Plan (CyAP)
 
 The CyAP is the operational companion as it takes those pillars and breaks them into concrete, assignable actions: specific tasks, assigned to specific stakeholders (ICAO itself, individual States/countries, or industry), with the intent of actually being implemented rather than just agreed upon in principle.
 
@@ -40,7 +40,7 @@ The first edition of the CyAP was published in November 2020, with a second edit
 
 These priority actions and tasks  map back to the Strategy's pillars, essentially turning "we should cooperate internationally on aviation cybersecurity" into things like "State X should establish a national point of contact for aviation cyber incident coordination" or "industry stakeholders should develop shared incident-reporting mechanisms" concrete, trackable commitments rather than abstract goals.
 
-##IATA: The Aviation Cybersecurity Approach
+## IATA: The Aviation Cybersecurity Approach
 
 IATA is the industry trade association for airlines themselves, its cybersecurity approach is built from the operator's perspective, not a government-to-government one. It's less about treaties and binding international law, more about practical guidance airlines can actually adopt.
 
