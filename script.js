@@ -33,7 +33,7 @@ function initTerminal(){
 
   const lines = [
     '> whoami',
-    'aya — cybersecurity analyst in training',
+    'aya khiouat: cybersecurity analyst',
     '> scan --skills',
     'network defense · threat management · endpoint security · OT security',
   ];
