@@ -66,4 +66,6 @@ think of ICAO as setting the "law" at the international/national level, national
 
 ## Why This Matters for a Security Analyst
 
-my own take
+Aviation ground systems (baggage handling, fueling infrastructure) fall within the same OT/ICS territory where prioritization under pressure is crucial: knowing which systems are treated as more critical (booking system vs. ground-ops/baggage-handling) helps you triage alerts correctly when things are moving fast.
+
+Understanding ICAO and IATA's frameworks adds the regulatory context around that technical foundation: knowing how to secure a control system is one thing, but understanding why an organization's policies are structured the way they are is a separate, complementary skill.
